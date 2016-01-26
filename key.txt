@@ -1,0 +1,5 @@
+python traceback1.py -dst /home/spinner/innlevert/demo2 /var/log/syslog
+
+tail -F /var/log/syslog
+
+sudo /usr/local/bin/snort -q -u snort -g snort -c /etc/snort/snort.conf -i eth0
